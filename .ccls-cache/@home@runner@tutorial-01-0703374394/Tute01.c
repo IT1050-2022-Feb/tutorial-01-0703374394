@@ -13,7 +13,8 @@ int main() {
   printf("Enter the mark 2");
   scanf("%d",&mark2);
 
-  
+  average=(mark1+mark2)/2;
+  printf("Average of marks : %.2f",average);
 
   
   return 0;
